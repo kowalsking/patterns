@@ -10,7 +10,7 @@ class Singleton {
    * Конструктор класу повинен завжди бути приватним, щоб уникнути можливості викликати його через оператор 'new'.
    */
   private constructor() {
-    console.log('hello from Singleton', this.count)
+    console.log('--- S I N G L E T O N ---')
   }
 
   /**
@@ -19,7 +19,9 @@ class Singleton {
   public static getInstance(): Singleton {
     if (!Singleton.instance) {
       Singleton.instance = new Singleton()
+      console.log('Singleton was created!')
     }
+    console.log('This is still the same instance of Singleton!')
     return Singleton.instance
   }
 
@@ -32,9 +34,5 @@ class Singleton {
 }
 
 Singleton.getInstance() // 0
-Singleton.getInstance() // 0
-Singleton.getInstance() // 0
-
-Singleton.getInstance().increaseCount() // 0
 
 export default Singleton
