@@ -1,0 +1,23 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Singleton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowalsking/patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowalsking/patterns/issues"
+  },
+  "homepage": "https://github.com/kowalsking/patterns#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
