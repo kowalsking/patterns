@@ -36,3 +36,5 @@ Singleton.getInstance() // 0
 Singleton.getInstance() // 0
 
 Singleton.getInstance().increaseCount() // 0
+
+export default Singleton
